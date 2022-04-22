@@ -71,6 +71,10 @@ html {
 
   /* Persentage of user's brower font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does not work on Safari and all iphone */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -78,6 +82,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* *********************** */
