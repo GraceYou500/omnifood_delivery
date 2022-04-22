@@ -15,6 +15,7 @@ Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraph default: 1.6
+Large: 1.8
 
 - Letter spacing
 -0.5px
@@ -70,6 +71,10 @@ html {
 
   /* Persentage of user's brower font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does not work on Safari and all iphone */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -77,6 +82,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* *********************** */
@@ -244,6 +250,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 *:focus {
